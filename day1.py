@@ -35,37 +35,62 @@ lst_empty = list()
 # create a list with numbers 1, 2, 3, 4, 5
 lst2 = [1, 2, 3, 4, 5]
 
-print(lst2)
 
 # add an element 24 to lst1
+lst1.append(24)
+# lst1.append(240)
+# lst1.append(32)
+# lst1.append(120)
+# print(lst1)
 
-# print all values in lst2
+# # print all values in lst2
+# print(lst2)
+
 
 
 # range(9, 10)
+# for i in range(0, 5):
+#     print(lst2[i])
 
 # while loop
+# i = 0
+# while i < 5:
+#     print(lst2[i])
+#     i += 1
 
 # List Comprehensions
 
 # Create a new list containing the squares of all values in 'numbers'
-
+numbers = [1, 2, 3, 4]
 
 # squares = []
 # for num in numbers:
 #     squares.append(num * num)
 
-
+# squares = [num * num for num in numbers]
+# print(numbers)
+# print(squares)
 # Filtering with a list comprehension
 # evens = []
 # for num in numbers:
 #     if num % 2 == 0:
 #         evens.append(num)
 
+
 # create a new list of even numbers using the values of the numbers list as inputs
+# evens = [num for num in numbers if num % 2 == 0]
 
-
+# print(evens)
 # create a new list containing only the names that start with 's' make sure they are capitalized (regardless of their original case)
+names = ["Sarah", "jorge", "sam", "frank", "bob", "sandy"]
+s_names = [name.capitalize() for name in names if name[0].lower() == 's']
+
+print(s_names)
+
+
+
+
+
 
 
 # Dictionaries
