@@ -85,7 +85,7 @@ numbers = [1, 2, 3, 4]
 names = ["Sarah", "jorge", "sam", "frank", "bob", "sandy"]
 s_names = [name.capitalize() for name in names if name[0].lower() == 's']
 
-print(s_names)
+# print(s_names)
 
 
 
@@ -96,8 +96,17 @@ print(s_names)
 # Dictionaries
 
 # Create a new dictionary
-# empty
-# key value pairs
-# access an element via its key
 
-# iterate over dict
+# empty
+d = {}
+d2 = dict()
+# key value pairs
+student = {
+    "name": "Amin",
+    "cohort": "cseuflex",
+    "current_sprint": "Intro to Python"
+} 
+# access an element via its key
+student["friends"] = ["bob", "dave", "steve"]
+print(student["friends"])
+
