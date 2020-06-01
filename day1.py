@@ -30,7 +30,7 @@
 lst1 = []
 lst_empty = list()
 
-print(my_list)
+# print(my_list)
 
 # create a list with numbers 1, 2, 3, 4, 5
 lst2 = [1, 2, 3, 4, 5]
