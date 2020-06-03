@@ -24,6 +24,6 @@
 - start creation of a store (shop)
 - 5 min break
 - input parser
-- 5 min break
 - creation of categories
+- 5 min break
 - wrap up 
