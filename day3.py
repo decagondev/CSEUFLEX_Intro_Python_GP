@@ -19,9 +19,10 @@
 # this keyword === self keyword
 
 class Vec2:
+
     def __init__(self, x, y):
         self.x = x
         self.y = y
     
     
-v1 = Vec2(12, 45)
+v1 = Vec2(12, 45) # constructor is called
