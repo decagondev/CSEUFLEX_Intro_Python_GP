@@ -19,3 +19,11 @@
 - REPL (Read Eval Print Loop)
 - wrap up
 
+## Day 3 (OOP 1)
+- talk about oop and classes
+- start creation of a store (shop)
+- 5 min break
+- input parser
+- 5 min break
+- creation of categories
+- wrap up 
