@@ -29,8 +29,8 @@
 - wrap up 
 
 ## Day 4 (Composition & Inheritance)
-- talk about composition
 - talk about inheritance
+- talk about composition
 - 5 min break
 - implement product class
 - make some sub classes
