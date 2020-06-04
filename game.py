@@ -13,8 +13,9 @@ player = Player(foyer)
 while running:
     cmd = input(">>> ")
     # split the cmd in to commands
-
+    commands = [1]
     # if commands length is 1
+    if len(commands) == 1:
         if cmd in ["n", "s", "e", "w"]:
             player.move(cmd)
         elif cmd == "q"
@@ -22,6 +23,8 @@ while running:
         else:
             print("i do not get it?!?!?!")
     # if commands length is 2
+    elif len(commands) == 2:
+        pass
         # get
 
         # drop
