@@ -61,6 +61,7 @@ class Treasure(Item):
     def __init__(self, name, value, description=""):
         super.__init__(name, description)
         self.value = value
+ 
 
 
 # Player
