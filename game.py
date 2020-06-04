@@ -18,7 +18,7 @@ while running:
     if len(commands) == 1:
         if cmd in ["n", "s", "e", "w"]:
             player.move(cmd)
-        elif cmd == "q"
+        elif cmd == "q":
             running = False
         else:
             print("i do not get it?!?!?!")
