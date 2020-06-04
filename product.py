@@ -6,4 +6,4 @@ class Product:
         self.price = price
 
     def __str__(self):
-        return f"{self.name}\t£{self.price}"
+        return f"{self.name}\t£{self.price:.2f}"

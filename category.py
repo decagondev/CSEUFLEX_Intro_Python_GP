@@ -5,4 +5,10 @@ class Category:
         self.products = products
 
     def __str__(self):
-        return f"There are no products in {self.name}"
+        output = "  " + self.name + "\n"
+        if len(self.products) < 1:
+            output = "No products available in this category"
+        for p in self.products:
+            output += "    " + str(p) + "\n"
+        
+        return output

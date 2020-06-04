@@ -1,10 +1,11 @@
 from category import Category
+from clothing import Clothing
 
 # my categories
-fiction = Category("Fiction")
-non_fiction = Category("Non Fiction")
-golf_balls = Category("Golf Balls")
-other = Category("Some other Cat")
+fiction = Category("Fiction", [Clothing("Some Product",30.78, "red", 20), Clothing("Other Product", 40, "Orange", 25)])
+non_fiction = Category("Non Fiction", [])
+golf_balls = Category("Golf Balls", [])
+other = Category("Some other Cat", [])
 
 # store class that has a name and a categories
 class Store:
